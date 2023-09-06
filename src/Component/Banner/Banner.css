@@ -1,0 +1,82 @@
+.hero{
+     background-image: url('https://i.ibb.co/z43H1d5/banner.jpg');
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     height: 90vh;
+     width: 100%;
+}
+.hero .container{padding-top: 15%;}
+
+from {
+     background-color: #fff;
+     border-radius: 5px;
+     margin-top: 50px;
+     padding: 0 20px;
+}
+.from-box{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+from input {
+     padding: 10%;
+     width: 100%;
+     margin-top: 5px;
+     border: 1px solid rgba(128,128,128,0.2);
+     border-radius: 5px;
+}
+from span{
+     font-size: 14px;
+     columns: grey;
+}
+input::placeholder{
+     font-size: 17px;
+     color: black;
+}
+from .box{
+     padding: 15px;
+     border-left: 1px solid rgba(128,128,128,0.2);
+}
+from .box:nth-child(1){
+     border-left: none;
+}
+from h4{
+     font-weight: 500;
+}
+@media screen and (max-width:768px) {
+     .hero .container{
+          padding-top: 30%;
+     }
+     form {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+        }
+        form .box {
+          border-left: none;
+        }
+        form input {
+          width: 100%;
+        }
+     
+}
+@media screen and (max-width:576px){
+     from{
+          flex-direction: column;
+     }
+     from input{
+          width: 250px;
+     }
+     from .box{
+          border-left: none;
+     }
+     input::placeholder{
+          font-size: 10px;
+     }
+     .box{
+          display: flex;
+          flex-direction: column;
+     }
+     
+}

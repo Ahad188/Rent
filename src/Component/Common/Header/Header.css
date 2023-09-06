@@ -34,12 +34,12 @@ header {
    header .toggle {
      display: none;
    }
-   @media screen and (max-width: 768px) {
+   @media screen and (max-width: 992px) {
      header {
        padding: 0;
      }
      header img {
-       margin-top: 30px;
+       margin-top: 20px;
      }
      header .button {
        display: none;
@@ -65,4 +65,62 @@ header {
        color: #fff;
      }
    }
-   
+   @media screen and (max-width: 768px) {
+     header {
+       padding: 0;
+     }
+     header img {
+       margin-top: 20px;
+     }
+     header .button {
+       display: none;
+     }
+     header .nav .flex {
+       display: none;
+     }
+     header .toggle {
+       display: block;
+       margin-top: 20px;
+     }
+     header .small {
+       position: absolute;
+       top: 10vh;
+       left: 0;
+       width: 100%;
+       background-color: #27ae60;
+       padding: 20px;
+     }
+     header li a {
+       display: inline-block;
+       margin-bottom: 20px;
+       color: #fff;
+     }
+   }
+   @media screen and (max-width: 576px){
+     header img {
+          margin-top: -8px;
+        }
+        header .button {
+          display: none;
+        }
+        header .nav .flex {
+          display: none;
+        }
+        header .toggle {
+          display: block;
+          margin-top: 20px;
+        }
+        header .small {
+          position: absolute;
+          top: 10vh;
+          left: 0;
+          width: 100%;
+          background-color: #27ae60;
+          padding: 20px;
+        }
+        header li a {
+          display: inline-block;
+          margin-bottom: 20px;
+          color: #fff;
+        }
+   }
