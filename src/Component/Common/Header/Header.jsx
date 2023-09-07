@@ -20,12 +20,12 @@ import { useQuery } from '@tanstack/react-query';
      return (
           <>
            <header>
-        <div className='container flex'>
+        <div className='container header-fl'>
           <div className='logo'>
             <img src={logo} alt='' />
           </div>
           <div className='nav'>
-            <ul className={navList ? "small" : "flex"}>
+            <ul className={navList ? "small" : "header-fl"}>
               {nav.map((list, index) => (
                 <li key={index}>
                   <Link to={list.path}>{list.text}</Link>
@@ -33,7 +33,7 @@ import { useQuery } from '@tanstack/react-query';
               ))}
             </ul>
           </div>
-          <div className='button flex'>
+          <div className='button header-fl'>
             <h4>
               <span>0</span> My List
             </h4>

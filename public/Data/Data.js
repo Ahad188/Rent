@@ -54,7 +54,7 @@ export const nav = [
    export const list = [
      {
        id: 1,
-       cover: "../images/list/p-1.png",
+       cover: "https://i.ibb.co/4ZXwBfs/p-1.png",
        name: "Red Carpet Real Estate",
        location: "210 Zirak Road, Canada",
        category: "For Rent",
@@ -63,7 +63,7 @@ export const nav = [
      },
      {
        id: 2,
-       cover: "../images/list/p-2.png",
+       cover: "https://i.ibb.co/dKXtP8Z/p-2.png",
        name: "Fairmount Properties",
        location: "5698 Zirak Road, NewYork",
        category: "For Sale",
@@ -72,7 +72,7 @@ export const nav = [
      },
      {
        id: 3,
-       cover: "../images/list/p-7.png",
+       cover: "https://i.ibb.co/16rQvn1/p-4.png",
        name: "The Real Estate Corner",
        location: "5624 Mooker Market, USA",
        category: "For Rent",
@@ -81,7 +81,7 @@ export const nav = [
      },
      {
        id: 4,
-       cover: "../images/list/p-4.png",
+       cover: "https://i.ibb.co/0ZkbKr1/p-5.png",
        name: "Herringbone Realty",
        location: "5621 Liverpool, London",
        category: "For Sale",
@@ -90,7 +90,7 @@ export const nav = [
      },
      {
        id: 5,
-       cover: "../images/list/p-5.png",
+       cover: "https://i.ibb.co/tbNGB17/p-6.png",
        name: "Brick Lane Realty",
        location: "210 Montreal Road, Canada",
        category: "For Rent",
@@ -99,7 +99,7 @@ export const nav = [
      },
      {
        id: 6,
-       cover: "../images/list/p-6.png",
+       cover: "https://i.ibb.co/pb8Nnf1/p-7.png",
        name: "Banyon Tree Realty",
        location: "210 Zirak Road, Canada",
        category: "For Sale",
