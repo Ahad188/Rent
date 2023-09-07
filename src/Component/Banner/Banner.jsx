@@ -1,3 +1,4 @@
+import Heading from '../Common/Heading/Heading';
 import './Banner.css'
 
 const Banner = () => {
@@ -5,6 +6,7 @@ const Banner = () => {
           <>
                <section className="hero">
                     <div className="container">
+                         <Heading title='Search Your Next Home ' subtitle='Find new & featured property located in your local city.'/>
                          <from className='from-box'>
                               <div className="box">
                                    <span>City/Street</span>

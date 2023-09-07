@@ -1,0 +1,36 @@
+.featured .box {
+     box-shadow: 0 0 20px 0 rgb(112 121 138 / 18%);
+     border-radius: 6px;
+     text-align: center;
+     padding: 30px;
+     cursor: pointer;
+   }
+   .featured img {
+     width: 65px;
+     height: 65px;
+     margin: auto;
+   }
+   .background {
+     padding: 80px 0;
+     position: relative;
+     background: #f7f9fc;
+   }
+   
+   .grid5 {
+     display: grid;
+     grid-template-columns: repeat(5, 1fr);
+     grid-gap: 30px;
+   }
+   .mtop {
+     margin-top: 50px;
+   }
+   @media screen and (max-width:576px) {
+     .grid5{
+          grid-template-columns: repeat(2,1fr);
+     }
+   }
+   @media screen and (max-width:767px) {
+     .grid5{
+          grid-template-columns: repeat(2,1fr);
+     }
+   }

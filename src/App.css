@@ -37,44 +37,19 @@ button {
 button i {
   margin-right: 5px;
 }
-.heading {
-  text-align: center;
-  width: 60%;
-  margin: auto;
-}
-.heading h1 {
-  color: #2d3954;
-  font-weight: 600;
-  text-transform: capitalize;
-  font-size: 35px;
-}
-.heading p {
-  color: #72809d;
-}
+
 textarea,
 input {
   border: none;
   outline: none;
   background: none;
 }
-.background {
-  padding: 80px 0;
-  position: relative;
-  background: #f7f9fc;
-}
 
-.grid5 {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-gap: 30px;
-}
 label {
   color: #2d3954;
   font-size: 14px;
 }
-.mtop {
-  margin-top: 50px;
-}
+
 h4 {
   font-weight: 500;
   margin-top: 10px;
@@ -170,5 +145,23 @@ img {
   .back img,
   .back {
     height: 30vh;
+  }
+}
+@media screen and (max-width: 576px) {
+  .grid4,
+  .grid3,
+  .grid5 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .heading {
+    width: 100%;
+  }
+  .container {
+    max-width: 70%;
+  }
+  .back::after,
+  .back img,
+  .back {
+    height: 250vh;
   }
 }

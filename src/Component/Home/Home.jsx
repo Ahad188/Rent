@@ -1,11 +1,13 @@
 import Banner from "../Banner/Banner";
+import Feature from "../Fetures/Feature";
 
  
 
 const Home = () => {
      return (
           <>
-             <Banner/>  
+             <Banner/>
+             <Feature/>  
           </>
      );
 };

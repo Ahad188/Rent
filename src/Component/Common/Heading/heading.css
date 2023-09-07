@@ -1,0 +1,14 @@
+.heading {
+     text-align: center;
+     width: 60%;
+     margin: auto;
+   }
+   .heading h1 {
+     color: #e2e5ea;
+     font-weight: 600;
+     text-transform: capitalize;
+     font-size: 35px;
+   }
+   .heading p {
+     color: #72809d;
+   }
