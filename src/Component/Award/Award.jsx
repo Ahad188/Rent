@@ -19,9 +19,7 @@ const Award = () => {
           <div className='content grid4 mtop'>
             {awards.map((val, index) => (
               <div className='box' key={index}>
-                <div className='icon'>
-                  {/* <span>{val.icon}</span> */}
-                </div>
+                
                 <h1>{val.num}</h1>
                 <p>{val.name}</p>
               </div>
