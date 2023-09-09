@@ -136,7 +136,7 @@ export const nav = [
        Villas: "12 Villas",
        Apartments: "10 Apartments",
        Offices: "07 Offices",
-       cover: "./images/location/city-1.png",
+       cover: "https://i.ibb.co/nRcFBnQ/city-1.jpg",
      },
      {
        id: 2,
@@ -144,7 +144,7 @@ export const nav = [
        Villas: "12 Villas",
        Apartments: "10 Apartments",
        Offices: "07 Offices",
-       cover: "./images/location/city-2.png",
+       cover: "https://i.ibb.co/WB9tBWW/city-2.jpg",
      },
      {
        id: 3,
@@ -152,7 +152,7 @@ export const nav = [
        Villas: "12 Villas",
        Apartments: " 10 Apartments",
        Offices: "07 Offices",
-       cover: "./images/location/city-3.png",
+       cover: "https://i.ibb.co/3MQC9Ct/city-3.png",
      },
      {
        id: 4,
@@ -160,7 +160,7 @@ export const nav = [
        Villas: "12 Villas",
        Apartments: " 10 Apartments",
        Offices: "07 Offices",
-       cover: "./images/location/city-4.png",
+       cover: "https://i.ibb.co/tD7v9Y3/city-4.png",
      },
      {
        id: 5,
@@ -168,7 +168,7 @@ export const nav = [
        Villas: "12 Villas",
        Apartments: " 10 Apartments",
        Offices: "07 Offices",
-       cover: "./images/location/city-5.png",
+       cover: "https://i.ibb.co/mBBXcXM/city-5.png",
      },
      {
        id: 6,
@@ -176,7 +176,7 @@ export const nav = [
        Villas: "12 Villas",
        Apartments: " 10 Apartments",
        Offices: "07 Offices",
-       cover: "./images/location/city-6.png",
+       cover: "https://i.ibb.co/pRj7nWt/city-6.png",
      },
    ]
    export const team = [
