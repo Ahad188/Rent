@@ -1,0 +1,32 @@
+.footer{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     width: 1440px;
+     margin: 0 auto;
+     padding: 15px;
+     background: #8e9dba;
+}
+.title{
+     color: #fff;
+     text-align: center;
+}
+.link{
+     display: block;
+     padding: 5px;
+     margin-left: 5px;
+}
+
+@media screen and (max-width:767px) {
+     .footer{
+          width: 100%;
+          padding: 10px;
+     }
+}
+@media screen and (max-width:576px) {
+     .footer{
+          width: 100%;
+          padding: 10px;
+          flex-direction: column;
+     }
+}
