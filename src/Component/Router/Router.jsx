@@ -5,6 +5,7 @@ import Feature from "../Fetures/Feature";
 import Price from "../Price/Price";
 import About from "../About/About";
 import Blog from "../Blog/Blog";
+import Contact from "../Contact/Contact";
 
 const router = createBrowserRouter([
      {
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
                {
                     path:'/pricing',
                     element:<Price/>
+               },
+               {
+                    path:'/contact',
+                    element:<Contact/>
                }
           ]
 
