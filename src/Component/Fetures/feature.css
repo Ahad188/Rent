@@ -24,13 +24,14 @@
    .mtop {
      margin-top: 50px;
    }
-   @media screen and (max-width:576px) {
-     .grid5{
-          grid-template-columns: repeat(2,1fr);
-     }
-   }
    @media screen and (max-width:767px) {
      .grid5{
           grid-template-columns: repeat(2,1fr);
      }
    }
+   @media screen and (max-width:576px) {
+     .grid5{
+          grid-template-columns: repeat(1,1fr);
+     }
+   }
+  
